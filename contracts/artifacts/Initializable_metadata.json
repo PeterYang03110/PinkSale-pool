@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "This is a base contract to aid in writing upgradeable contracts, or any kind of contract that will be deployed behind a proxy. Since a proxied contract can't have a constructor, it's common to move constructor logic to an external initializer function, usually called `initialize`. It then becomes necessary to protect this initializer function so it can only be called once. The {initializer} modifier provided by this contract will have this effect. TIP: To avoid leaving the proxy in an uninitialized state, the initializer function should be called as early as possible by providing the encoded function call as the `_data` argument to {UpgradeableProxy-constructor}. CAUTION: When used with inheritance, manual care must be taken to not invoke a parent initializer twice, or to ensure that all initializers are idempotent. This is not verified automatically as constructors are by Solidity.",
+			"kind": "dev",
+			"methods": {},
+			"stateVariables": {
+				"_initialized": {
+					"details": "Indicates that the contract has been initialized."
+				},
+				"_initializing": {
+					"details": "Indicates that the contract is in the process of being initialized."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Pool.sol": "Initializable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Pool.sol": {
+			"keccak256": "0xe41ba58577d2dd5387eb55cb4be4850635559b950e36f4b5e12bd759068c54ce",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ae7e033d3cc58306ab56bd57a1a192a70b5c51d26c50a0bf3329a235a7b5732a",
+				"dweb:/ipfs/QmPgkTRH5CSz7coqZM5MpWqpgqjx8zN7WK4VKcUV5Qkvh1"
+			]
+		}
+	},
+	"version": 1
+}
